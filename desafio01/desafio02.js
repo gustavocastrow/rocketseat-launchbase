@@ -32,21 +32,12 @@ if (condicao1) {
 
 const nome = 'João';
 const sexo = 'M';
-const idade = 1;
-const contribuicao = 95;
+const idade = 60;
+const contribuicao = 35;
 
-const anosContribuicao = idade + contribuicao;
-
-
-
-if (sexo == 'F' && anosContribuicao >=85 ){
-  console.log(`${nome}, você PODE se aposentar`)
-
-} else if (sexo == 'F' && anosContribuicao < 85){
-  console.log(`${nome}, você NÃO pode se aposentar`)
-
-  } else if (sexo == 'M' && anosContribuicao >= 95){
-    console.log(`${nome}, você PODE se aposentar`)
-  } else {
-    console.log(`${nome}, você NÃO pode se aposentar`)
-  }
+if ((sexo === 'M' && contribuicao >= 35 && idade + contribuicao >= 95) ||
+    (sexo === 'F' && contribuicao >= 30 && idade + contribuicao >= 85)) {
+      console.log(`${nome}, você pode se aposentar!`)
+    } else {
+      console.log(`${nome}, você não pode se aposentar!`)
+    }
