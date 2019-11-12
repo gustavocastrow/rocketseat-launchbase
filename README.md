@@ -8,9 +8,9 @@
 - [X] Condicionais
 - [X] Operadores
 - [X] Desafio 01
-- [ ] Objetos
-- [ ] Arrays
-- [ ] Desafio 02
+- [X] Objetos
+- [X] Arrays
+- [X] Desafio 02
 - [ ] Functions Methods
 - [ ] Estrutura de Repetição
 - [ ] Desafio 03
