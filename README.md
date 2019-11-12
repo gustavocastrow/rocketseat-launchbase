@@ -1,1 +1,19 @@
-# launchbase-bootcamp-rocketseat-week01
+
+# 1. Introdução à programação
+
+
+- [X] Introdução
+- [X] Criando e Rodando Javascript
+- [X] Sintaxe - Comentários, Strings, Numbers e Calculos
+- [X] Condicionais
+- [X] Operadores
+- [X] Desafio 01
+- [ ] Objetos
+- [ ] Arrays
+- [ ] Desafio 02
+- [ ] Functions Methods
+- [ ] Estrutura de Repetição
+- [ ] Desafio 03
+- [ ] Booleans
+- [ ] Organização, Padronização e Escrita
+- [ ] Desafio 04
