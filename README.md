@@ -11,9 +11,9 @@
 - [X] Objetos
 - [X] Arrays
 - [X] Desafio 02
-- [ ] Functions Methods
-- [ ] Estrutura de Repetição
-- [ ] Desafio 03
+- [X] Functions Methods
+- [X] Estrutura de Repetição
+- [X] Desafio 03
 - [ ] Booleans
 - [ ] Organização, Padronização e Escrita
 - [ ] Desafio 04
