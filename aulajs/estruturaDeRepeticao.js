@@ -1,6 +1,3 @@
-//Criar um programa que calcula a média das turmas de alunos e envia mensagem 
-//do cálculo da média.
-
 const alunosDaTurmaA = [
   {//0
     nome: "Gustavo",
@@ -14,6 +11,10 @@ const alunosDaTurmaA = [
   {//2
     nome: "João",
     nota: 2
+  },
+  {
+    nome: "Mais um",
+    nota: 10
   }
 ]
 
@@ -29,12 +30,21 @@ const alunosDaTurmaB = [
   {
     nome: "Ricardo",
     nota: 4
+  },
+  {
+    nome: "Novo Aluno",
+    nota : 5
   }
 
 ]
 
 function calculaMedia(alunos) {
-  return (alunos[0].nota + alunos[1].nota + alunos[2].nota)/3
+  let soma = 0;
+  for(let i = 0; i <alunos.length; i++){
+    soma = soma + alunos[i].nota;
+  }
+  const media = soma /alunos.length
+  return media 
 
 }
 
