@@ -31,21 +31,21 @@ function somaNumeros(numeros) {
   //Soma todos os números dentro do array "numeros"
   let soma = 0
   for(let i = 0; i<numeros.length; i++){
-    soma += numeros[i];
+    soma = soma + numeros[i];
   }
    return soma;
 }
+
+
 
 for(let i = 0; i < usuarios.length; i++){
 let saldo = 0;
 saldo = calculaSaldo(somaNumeros(usuarios[i].receitas),somaNumeros(usuarios[i].despesas))
 
 if(saldo > 0) 
- console.log(`${usuarios[i].nome} possui saldo POSITIVO de 
-              R$ ${(saldo).toFixed(2)}`)
+ console.log(`${usuarios[i].nome} possui saldo POSITIVO de R$ ${(saldo).toFixed(2)}`)
 else if(saldo < 0) 
-console.log(`${usuarios[i].nome} possui saldo NEGATIVO de 
-             R$ ${(saldo).toFixed(2)}`)
+console.log(`${usuarios[i].nome} possui saldo NEGATIVO de R$ ${(saldo).toFixed(2)}`)
 else console.log(`${usuarios[i].nome} possui saldo ZERADO!`)
  }
 
