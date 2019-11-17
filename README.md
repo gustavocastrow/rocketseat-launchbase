@@ -1,5 +1,5 @@
 
-# 1. Introdução à programação
+# 1. Introdução à programação (módulo 01)
 
 
 - [X] Introdução
@@ -14,6 +14,21 @@
 - [X] Functions Methods
 - [X] Estrutura de Repetição
 - [X] Desafio 03
-- [ ] Booleans
-- [ ] Organização, Padronização e Escrita
+- [X] Booleans
+- [X] Organização, Padronização e Escrita
 - [ ] Desafio 04
+
+# 2. Criando páginas web (módulo 02)
+
+- [X] O que é Backend e Frontend?
+- [X] Primeiro projeto em HTML com CSS
+- [X] Menu do site
+- [X] Página sobre
+- [X] Links sociais
+- [X] Iniciando página de portfólio
+- [X] Adicionando Modal
+- [X] Controlando Modal com Javascript
+- [X] Vídeo dinâmico com iframe
+
+
+
