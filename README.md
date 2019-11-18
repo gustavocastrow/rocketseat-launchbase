@@ -16,7 +16,7 @@
 - [X] Desafio 03
 - [X] Booleans
 - [X] Organização, Padronização e Escrita
-- [ ] Desafio 04
+- [X] Desafio 04
 
 # 2. Criando páginas web (módulo 02)
 
@@ -29,6 +29,7 @@
 - [X] Adicionando Modal
 - [X] Controlando Modal com Javascript
 - [X] Vídeo dinâmico com iframe
+- [X] Desafio Foodfy
 
 
 
