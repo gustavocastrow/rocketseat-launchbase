@@ -4,32 +4,32 @@
 
 - [X] Introdução
 - [X] Criando e Rodando Javascript
-- [X] Sintaxe - Comentários, Strings, Numbers e Calculos
-- [X] Condicionais
-- [X] Operadores
-- [X] Desafio 01
-- [X] Objetos
-- [X] Arrays
-- [X] Desafio 02
-- [X] Functions Methods
-- [X] Estrutura de Repetição
-- [X] Desafio 03
-- [X] Booleans
-- [X] Organização, Padronização e Escrita
-- [X] Desafio 04
+- [] Sintaxe - Comentários, Strings, Numbers e Calculos
+- [] Condicionais
+- [] Operadores
+- [] Desafio 01
+- [] Objetos
+- [] Arrays
+- [] Desafio 02
+- [] Functions Methods
+- [] Estrutura de Repetição
+- [] Desafio 03
+- [] Booleans
+- [] Organização, Padronização e Escrita
+- [] Desafio 04
 
 # 2. Criando páginas web (módulo 02)
 
-- [X] O que é Backend e Frontend?
-- [X] Primeiro projeto em HTML com CSS
-- [X] Menu do site
-- [X] Página sobre
-- [X] Links sociais
-- [X] Iniciando página de portfólio
-- [X] Adicionando Modal
-- [X] Controlando Modal com Javascript
-- [X] Vídeo dinâmico com iframe
-- [X] Desafio Foodfy
+- [] O que é Backend e Frontend?
+- [] Primeiro projeto em HTML com CSS
+- [] Menu do site
+- [] Página sobre
+- [] Links sociais
+- [] Iniciando página de portfólio
+- [] Adicionando Modal
+- [] Controlando Modal com Javascript
+- [] Vídeo dinâmico com iframe
+- [] Desafio Foodfy
 
 
 
