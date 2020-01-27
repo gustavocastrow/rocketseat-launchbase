@@ -20,16 +20,16 @@
 
 # 2. Criando páginas web (módulo 02)
 
-- [ ] O que é Backend e Frontend?
-- [ ] Primeiro projeto em HTML com CSS
-- [ ] Menu do site
-- [ ] Página sobre
-- [ ] Links sociais
-- [ ] Iniciando página de portfólio
-- [ ] Adicionando Modal
-- [ ] Controlando Modal com Javascript
-- [ ] Vídeo dinâmico com iframe
-- [ ] Desafio Foodfy
+- [X] O que é Backend e Frontend?
+- [X] Primeiro projeto em HTML com CSS
+- [X] Menu do site
+- [X] Página sobre
+- [X] Links sociais
+- [X] Iniciando página de portfólio
+- [X] Adicionando Modal
+- [X] Controlando Modal com Javascript
+- [X] Vídeo dinâmico com iframe
+- [X] Desafio Foodfy (https://github.com/gustavocastrow/rocketseat-launchbase-foodfy)
 
 
 
