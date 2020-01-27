@@ -1,5 +1,5 @@
 
-# 1. Introdução à programação (módulo 01)
+# 1. Introdução à programação (fase 02)
 
 
 - [X] Introdução
@@ -18,7 +18,7 @@
 - [X] Organização, Padronização e Escrita
 - [X] Desafio 04(https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/01-4-aplicacao-operacoes-bancarias.md)
 
-# 2. Criando páginas web (módulo 02)
+# 2. Criando páginas web (fase 03)
 
 - [X] O que é Backend e Frontend?
 - [X] Primeiro projeto em HTML com CSS
@@ -30,6 +30,16 @@
 - [X] Controlando Modal com Javascript
 - [X] Vídeo dinâmico com iframe
 - [X] Desafio Foodfy (https://github.com/gustavocastrow/rocketseat-launchbase-foodfy)
+
+# 3. Iniciando com o back-end
+
+- [ ] Criando Servidor
+- [ ] Template Engine
+- [ ] Usando dados dinâmicos
+- [ ] Atualizando "Página Sobre"
+- [ ] Videos em Destaque
+- [ ] Página de único video
+- [ ] Desafio
 
 
 
