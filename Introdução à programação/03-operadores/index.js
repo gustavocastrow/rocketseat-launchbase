@@ -29,8 +29,8 @@ console.log(c !== d); // True
 
 
 // Operadores lógicos (são tipicamentes usados com booleans):
-// &&: "E", vai comprar dois booleans e retornar VERDADEIRO caso AS DUAS expressões sejam verdadeiras
-// ||: "Ou", vai comprar dois booleans e retornar VERDADEIRO caso UMA DAS DUAS expressões sejam verdadeiras
+// &&: "E", As duas condições devem ser verdadeiras para que a condição final seja verdadeira
+// ||: "OU", Uma das condições deve ser verdadeira, para que a condição final seja verdadeira
 // ! : "Não", vai NEGAR uma expressão
 
 const e = 9;
