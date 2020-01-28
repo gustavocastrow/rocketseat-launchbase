@@ -1,54 +1,53 @@
-// Operadores relacionais:
-// > : Maior que
-// < : Menor que
-// >=: Maior igual a
-// <=: Menor igual a
+/* =======================================================================
+ 
+OPERADORES DE COMPARAÇÃO
 
-const a = 5;
-const b = 6;
+> : Maior 
+< : Menor
+>=: Maior igual a
+<=: Menor igual a
+==: Igual a
+===:Igual e do mesmo tipo
+!= : Diferente de
+!==: Diferente, inclusive do tipo
 
-console.log(a > b); // False
-console.log(a < b); // True
-console.log(a >=b); // False
-console.log(a <=b); // True
+==========================================================================*/
+/* =======================================================================
+ 
+OPERADORES LÓGICOS:
 
+&& -> "E": As duas condições devem ser verdadeiras para que a condição final
+seja verdadeira.
 
-// Operadores de igualdade:
-// == : Igual a
-// != : Diferente de
-// ===: Igual e do mesmo tipo
-// !==: Diferente inclusive do tipo
+|| -> "OU": Uma das condições deve ser verdadeira para que a condição final
+seja verdadeira.
 
-const c = 8; // Number
-const d = '8'; // String
+! -> "NÃO": Nega uma condição.
 
-console.log(c == d); // True
-console.log(c != d); // False
-console.log(c === d); // False
-console.log(c !== d); // True
+==========================================================================*/
 
+console.log(5 == 5 && 6 == 6) //true
+console.log(5 == 5 && 6 != 6) //true
 
-// Operadores lógicos (são tipicamentes usados com booleans):
-// &&: "E", As duas condições devem ser verdadeiras para que a condição final seja verdadeira
-// ||: "OU", Uma das condições deve ser verdadeira, para que a condição final seja verdadeira
-// ! : "Não", vai NEGAR uma expressão
+console.log(5 != 5 || 6 == 6) //true
+console.log(5 == 5 || 6 != 6) //true
 
-const e = 9;
-const f = '9';
+console.log(!(5>6)) //true
+console.log(!(5<6)) //false
 
-console.log(e == f && e !== f); // True
-console.log(e == f && e != f); // False
+//DESAFIO 01
 
-console.log(e == f || e !== f); // True
-console.log(e == f || e != f); // True
-console.log(e != f || e === f); // False
+const idade = 17
 
-console.log( !(e == f || e != f)) // False
+// verificar se a pessoa é maior igual a 18 anos
+//se sim, deixar entrar, se não, bloquar a entrada
+//se a pessoa tiver 17 avisar para voltar quando completar 18 anos.
 
 
-// Operadores Aritméticos: 
-// * : Multiplicação
-// / : Divisão
-// % : Resto da divisão
-// + : Adição
-// - : Subtração
+if(!(idade >= 18) || idade === 17){
+  //idade não é >=18(false) porém eu estou negando ela "!"
+  //e transformando em verdadeiro 
+  console.log('Bloquear entrada')
+} else {
+  console.log('Deixar entrar')
+}
