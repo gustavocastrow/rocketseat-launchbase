@@ -18,7 +18,7 @@
 - [X] Desafio 04(https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/01-4-aplicacao-operacoes-bancarias.md)
 
 
-# 2. Criando páginas web (fase 03)
+# 2. Iniciando no Front-End (fase 02)
 
 - [ ] O que é Back End e Front End
 - [ ] Iniciando no HTML 
