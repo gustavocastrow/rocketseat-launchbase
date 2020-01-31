@@ -1,4 +1,3 @@
-
 const classA = [
   {
     name: 'Gustavo',
