@@ -1,5 +1,5 @@
 
-# 1. Introdução à programação (fase 02)
+# 1. [Módulo 01] Introdução à programação (fase 02)
 
 - [X] Introdução
 - [X] Criando e Rodando Javascript
@@ -18,7 +18,7 @@
 - [X] Desafio 04(https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/01-4-aplicacao-operacoes-bancarias.md)
 
 
-# 2. Iniciando no Front-End (fase 02)
+# 2. [Módulo 02] Iniciando no Front-End (fase 02)
 
 - [X] O que é Back End e Front End
 - [X] Iniciando no HTML 
@@ -47,4 +47,31 @@
 - [X] Manipulando DOM
 - [X] Adicionando conteúdo externo com iframe
 - [X] Substituindo conteúdo com Javascript
+
+# 3. [Módulo 03] Iniciando no Back-End (fase 02)
+
+- [X] Iniciando a configuração do servidor
+- [X] Criando servidor
+- [X] Criando rotas
+- [X] Reiniciando o servidor automaticamente
+- [X] Instalando e configurando o Nunjucks
+- [ ] Trazendo o Front end do site para o servidor
+- [ ] Página dinâmica com Nunjucks
+- [ ] Configurando arquivos .njk
+- [ ] Desafio 3-1
+- [ ] Exportanto e importanto Javascript
+- [ ] Passando dados do back-end para o front-end
+- [ ] Alinhando elementos com CSS Grid
+- [ ] Atualizando página Sobre
+- [ ] Desafio 3-2
+- [ ] Adicionando vídeos em destaque
+- [ ] Estilizando o label destaque
+- [ ] Classes CSS dinâmicas e noCache Nunjucas
+- [ ] Passando dados do front-end para o back-end com Query Strings
+- [ ] FIltrando elementos do array de videos
+- [ ] Estruturando a página de vídeo único
+- [ ] Reconfigurando o iframe
+- [ ] Redirecionando URL com javascript
+- [ ] Ajustes finais
+- [ ] Desafio 3-2
 
