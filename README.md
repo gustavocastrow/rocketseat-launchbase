@@ -20,31 +20,31 @@
 
 # 2. Iniciando no Front-End (fase 02)
 
-- [ ] O que é Back End e Front End
-- [ ] Iniciando no HTML 
-- [ ] Desenvolvendo um live server
-- [ ] Iniciando com CSS
-- [ ] Criando a estrutura do menu com HTML
-- [ ] Espaçamento com CSS
-- [ ] Resetando estilos do navegador
-- [ ] Conhecendo a cascata do CSS
-- [ ] Estilizando fontes e links do menu
-- [ ] Adicionando imagens no HTML
-- [ ] Separando e importando estilos
-- [ ] Trabalhando com texto no HTML
-- [ ] Estilizando imagem do avatar
-- [ ] Estilizando textos e fontes com CSS
-- [ ] Variáveis no CSS
-- [ ] Links para redes socias
-- [ ] Desafio 2-2
-- [ ] Iniciando página de portfólio
-- [ ] Estilizando os cards
-- [ ] Posicionando elementos HTML com CSS Grid
-- [ ] Sobreposição de conteúdo HTML com CSS
-- [ ] Adicionando janela pop-up no estilo
-- [ ] Escondendo elementos com CSS
-- [ ] Selecionando Elementos da DOM
-- [ ] Manipulando DOM
-- [ ] Adicionando conteúdo externo com iframe
-- [ ] Substituindo conteúdo com Javascript
+- [X] O que é Back End e Front End
+- [X] Iniciando no HTML 
+- [X] Desenvolvendo um live server
+- [X] Iniciando com CSS
+- [X] Criando a estrutura do menu com HTML
+- [X] Espaçamento com CSS
+- [X] Resetando estilos do navegador
+- [X] Conhecendo a cascata do CSS
+- [X] Estilizando fontes e links do menu
+- [X] Adicionando imagens no HTML
+- [X] Separando e importando estilos
+- [X] Trabalhando com texto no HTML
+- [X] Estilizando imagem do avatar
+- [X] Estilizando textos e fontes com CSS
+- [X] Variáveis no CSS
+- [X] Links para redes socias
+- [X] Desafio 2-2
+- [X] Iniciando página de portfólio
+- [X] Estilizando os cards
+- [X] Posicionando elementos HTML com CSS Grid
+- [X] Sobreposição de conteúdo HTML com CSS
+- [X] Adicionando janela pop-up no estilo
+- [X] Escondendo elementos com CSS
+- [X] Selecionando Elementos da DOM
+- [X] Manipulando DOM
+- [X] Adicionando conteúdo externo com iframe
+- [X] Substituindo conteúdo com Javascript
 
