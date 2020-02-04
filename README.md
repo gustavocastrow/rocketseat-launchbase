@@ -55,23 +55,23 @@
 - [X] Criando rotas
 - [X] Reiniciando o servidor automaticamente
 - [X] Instalando e configurando o Nunjucks
-- [ ] Trazendo o Front end do site para o servidor
-- [ ] Página dinâmica com Nunjucks
-- [ ] Configurando arquivos .njk
-- [ ] Desafio 3-1
-- [ ] Exportanto e importanto Javascript
-- [ ] Passando dados do back-end para o front-end
-- [ ] Alinhando elementos com CSS Grid
-- [ ] Atualizando página Sobre
-- [ ] Desafio 3-2
-- [ ] Adicionando vídeos em destaque
-- [ ] Estilizando o label destaque
-- [ ] Classes CSS dinâmicas e noCache Nunjucas
-- [ ] Passando dados do front-end para o back-end com Query Strings
-- [ ] FIltrando elementos do array de videos
-- [ ] Estruturando a página de vídeo único
-- [ ] Reconfigurando o iframe
-- [ ] Redirecionando URL com javascript
-- [ ] Ajustes finais
-- [ ] Desafio 3-2
+- [X] Trazendo o Front end do site para o servidor
+- [X] Página dinâmica com Nunjucks
+- [X] Configurando arquivos .njk
+- [X] Desafio 3-1
+- [X] Exportanto e importanto Javascript
+- [X] Passando dados do back-end para o front-end
+- [X] Alinhando elementos com CSS Grid
+- [X] Atualizando página Sobre
+- [X] Desafio 3-2
+- [X] Adicionando vídeos em destaque
+- [X] Estilizando o label destaque
+- [X] Classes CSS dinâmicas e noCache Nunjucas
+- [X] Passando dados do front-end para o back-end com Query Strings
+- [X] FIltrando elementos do array de videos
+- [X] Estruturando a página de vídeo único
+- [X] Reconfigurando o iframe
+- [X] Redirecionando URL com javascript
+- [X] Ajustes finais
+- [X] Desafio 3-2
 

@@ -6,19 +6,16 @@
 
 {% block content %}
 
-  <div id="wrapper">
+  <div id="wrapper" class="video">
     <h1>{{ item.title }}</h1>
   </div>
 
   <section class="video">
 
     <div class="card" id="{{item.id}}">
-      <div class="card__image-container {{ 'featured-wrapper' if item.featured }}">
-        <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="{{item.title}}">
-
-        {% if item.featured %}
-          <div class="featured">Featured</div>
-        {% endif %}
+      <div class="card__video-container">
+        <iframe src="https://www.youtube.com/embed/{{item.id}}" frameborder="0"></iframe>
+        
 
       </div>
       <div class="card__content">
