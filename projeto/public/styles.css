@@ -59,3 +59,13 @@ header {
   width: 100%;
   transition: width 700ms ease-in-out ;
 }
+
+/* === CARD === */
+
+.card {
+  background-color:  white;
+  width: 800px;
+  height: 400px;
+
+  margin-top: 45px auto;
+}
