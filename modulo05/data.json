@@ -1,0 +1,11 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Marcelo",
+      "birth": "1212-12-12",
+      "gender": "M",
+      "services": "Boxe, Crossfit"
+    }
+  ]
+}
