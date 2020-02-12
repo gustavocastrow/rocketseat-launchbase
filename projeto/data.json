@@ -1,0 +1,24 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.google.com",
+      "name": "Pedro",
+      "birth": 816134400000,
+      "scholarity": "medio",
+      "tipo": "presencial",
+      "services": "Boxe, Crossfit",
+      "created_at": 1581467469639
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://www.google.com",
+      "name": "Gustavo",
+      "birth": 818294400000,
+      "scholarity": "mestrado",
+      "tipo": "distancia",
+      "services": "Geografia",
+      "created_at": 1581467549170
+    }
+  ]
+}
