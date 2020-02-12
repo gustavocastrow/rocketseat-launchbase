@@ -1,11 +1,31 @@
 {
   "instructors": [
     {
+      "id": 1,
+      "avatar_url": "https://www.google.com",
+      "name": "Pedro",
+      "birth": 976579200000,
+      "gender": "M",
+      "services": "Boxe, Crossfit",
+      "created_at": 1581432218461
+    },
+    {
+      "id": 2,
       "avatar_url": "https://www.google.com",
       "name": "Marcelo",
-      "birth": "1212-12-12",
+      "birth": 1552348800000,
       "gender": "M",
-      "services": "Boxe, Crossfit"
+      "services": "Musculação,crossfit",
+      "created_at": 1581432270279
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://www.google.com",
+      "name": "João",
+      "birth": 989020800000,
+      "gender": "M",
+      "services": "Musculação,crossfit",
+      "created_at": 1581544333854
     }
   ]
 }
