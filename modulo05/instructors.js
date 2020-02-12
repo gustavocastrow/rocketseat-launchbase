@@ -13,7 +13,7 @@ exports.show = function(req,res){
   if(!foundInstructor) return res.send('Instructor not found!')
 
 
-  return res.send(foundInstructor)
+  return res.render('instructors/show', { instructor: foundInstructor})
 
 
 
