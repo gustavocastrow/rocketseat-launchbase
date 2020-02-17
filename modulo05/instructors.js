@@ -1,19 +1,17 @@
 const fs = require('fs')
 const data = require('./data.json')
-const { age } = require('./utils')
+const { age, date } = require('./utils')
 
-// função para create
+// SHOW
 exports.show = function(req,res){
 
   const { id } = req.params
 
   const foundInstructor = data.instructors.find(function(instructor){
-    return instructor.id == id
+    return id == instructor.id
   })
 
   if(!foundInstructor) return res.send('Instructor not found!')
-
-
 
   const instructor = {
     ...foundInstructor,
@@ -22,12 +20,11 @@ exports.show = function(req,res){
     created_at: new Intl.DateTimeFormat("pt-BR").format(foundInstructor.created_at)
   }
 
-
   return res.render('instructors/show', { instructor })
-
-
-
 }
+
+
+// CREATE
 
 exports.post = function(req, res){
   
@@ -67,3 +64,28 @@ exports.post = function(req, res){
     //return  res.send(req.body)
   
 }
+
+// EDIT
+
+exports.edit = function(req, res){
+
+  const { id } = req.params
+
+  const foundInstructor = data.instructors.find(function(instructor){
+    return id == instructor.id
+  })
+
+  if(!foundInstructor) return res.send('Instructor not found!')
+
+  //instructor.birth = 9409239393204329423
+  //date(instructor.birth)
+  //return yyyy-mm-dd
+
+  date(foundInstructor.birth)
+
+
+
+  return res.render('instructors/edit', { instructor: foundInstructor})
+}
+
+
