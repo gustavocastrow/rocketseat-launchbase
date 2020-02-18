@@ -77,15 +77,13 @@ exports.edit = function(req, res){
 
   if(!foundInstructor) return res.send('Instructor not found!')
 
-  //instructor.birth = 9409239393204329423
-  //date(instructor.birth)
-  //return yyyy-mm-dd
 
-  date(foundInstructor.birth)
+  const instructor = {
+    ...foundInstructor,
+    birth: date(foundInstructor.birth) //2000-2-1
+  }
 
-
-
-  return res.render('instructors/edit', { instructor: foundInstructor})
+  return res.render('instructors/edit', { instructor })
 }
 
 
