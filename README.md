@@ -75,3 +75,16 @@
 - [X] Ajustes finais
 - [X] Desafio 3-2
 
+# 3. [Módulo 05] Controle de Academia (fase 03)
+
+- [X] Estrutura HTML e CSS do projeto
+- [X] Cadastro de instrutores
+- [X] Manipulando dados
+- [X] Trabalhando com datas
+- [X] Atualizando e excluindo instrutores
+- [X] Listando instrutores
+- [X] Membros
+
+
+
+
