@@ -1,8 +1,9 @@
 {
+  "members": [],
   "instructors": [
     {
       "id": 1,
-      "avatar_url": "https://www.google.com",
+      "avatar_url": "https://images.unsplash.com/photo-1554344728-77cf90d9ed26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "name": "Pedro",
       "birth": 976579200000,
       "gender": "M",
@@ -11,48 +12,12 @@
     },
     {
       "id": 2,
-      "avatar_url": "https://www.google.com",
+      "avatar_url": "https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "name": "Marcelo",
       "birth": 1552348800000,
       "gender": "M",
       "services": "Musculação,crossfit",
       "created_at": 1581432270279
-    },
-    {
-      "id": 3,
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "name": "João",
-      "birth": 989020800000,
-      "gender": "M",
-      "services": "Musculação,crossfit",
-      "created_at": 1581544333854
-    },
-    {
-      "id": 4,
-      "avatar_url": "https://www.google.com",
-      "name": "Alexandre",
-      "birth": 468115200000,
-      "gender": "M",
-      "services": "Boxe, Crossfit",
-      "created_at": 1581621310617
-    },
-    {
-      "id": 5,
-      "avatar_url": "https://www.google.com",
-      "name": "Ivete",
-      "birth": 470707200000,
-      "gender": "M",
-      "services": "Física, Matemática",
-      "created_at": 1581621336658
-    },
-    {
-      "id": 6,
-      "avatar_url": "https://source.unsplash.com/collection/3465564/500x500",
-      "name": "Julia",
-      "birth": 963360000000,
-      "gender": "F",
-      "services": "Musculação,crossfit",
-      "created_at": 1581979450341
     }
   ]
 }
