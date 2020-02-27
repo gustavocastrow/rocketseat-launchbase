@@ -3,9 +3,7 @@
 {% block content %}
 
   <div class="card">
-    <section 
-        class="avatar" 
-        style="background: url(https://source.unsplash.com/collection/3465564/500x500) no-repeat center center / cover"></section>
+    <section class="avatar" style="background: url({{instructor.avatar_url}}) no-repeat center center / cover"></section>
 
     <section class="details">
       <form method="POST" action="/instructors?_method=PUT">
@@ -13,26 +11,28 @@
         <h3>Editar Instrutor</h3>
 
         {% include 'instructors/fields.njk' %}
-        <input 
-            type="hidden" 
-            name="id" 
-            value={{instructor.id}}
-            >
+        <input type="hidden" name="id" value={{instructor.id}}>
 
       </form>
 
-      <form  id="form-delete" action="/instructors?_method=DELETE" method="post">
-        <input 
-            type="hidden" 
-            name="id" 
-            value={{instructor.id}}
-            >
+      <form id="form-delete" action="/instructors?_method=DELETE" method="post">
+        <input type="hidden" name="id" value={{instructor.id}}>
 
-        <button type="submit">Deletar<button>
-      </form>
+        <button type="submit">Deletar<button></form>
 
-    </section>
+        </section>
 
-  </div>
+        <script>
+          const formDelete = document.querySelector("#form-delete")
+          formDelete.addEventListener("submit", function (event) {
+            const confirmation = confirm("Deseja deletar?")
+
+            if (!confirmation) {
+              event.preventDefault()
+            }
+          })
+        </script>
+
+      </div>
 
     {% endblock content %}

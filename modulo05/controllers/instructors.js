@@ -6,7 +6,50 @@ exports.index = function(req, res) {
   return res.render('instructors/index', { instructors: data.instructors })
 
 }
-// SHOW
+
+exports.create = function(req, res) {
+  return res.render("instructors/create")
+}
+
+exports.post = function(req, res){
+  
+  
+  // Validando se todos os dados estão preenchidos.
+  const keys = Object.keys(req.body)
+
+  for (key of keys) {
+    //req.body.key == ""
+    if (req.body[key] == ""){
+    return res.send('Please, fill all fields ')
+      }
+  }
+
+let { avatar_url, name, birth, gender, services, } = req.body
+
+birth = Date.parse(birth)
+const created_at = Date.now()
+const id = Number(data.instructors.length + 1)
+
+data.instructors.push({
+    id,
+    avatar_url,
+    name,
+    birth,
+    gender,
+    services,
+    created_at
+  }) 
+
+  fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err){
+    if(err) return res.send('Write file error')
+
+    return res.redirect('/instructors')
+
+  })
+  //return  res.send(req.body)
+
+}
+
 exports.show = function(req,res){
 
   const { id } = req.params
@@ -26,49 +69,7 @@ exports.show = function(req,res){
 
   return res.render('instructors/show', { instructor })
 }
-exports.create = function(req, res) {
-  return res.render("instructors/create")
-}
-// CREATE
-exports.post = function(req, res){
-  
-  
-    // Validando se todos os dados estão preenchidos.
-    const keys = Object.keys(req.body)
-  
-    for (key of keys) {
-      //req.body.key == ""
-      if (req.body[key] == ""){
-      return res.send('Please, fill all fields ')
-        }
-    }
 
-  let { avatar_url, name, birth, gender, services, } = req.body
-
-  birth = Date.parse(birth)
-  const created_at = Date.now()
-  const id = Number(data.instructors.length + 1)
-  
-  data.instructors.push({
-      id,
-      avatar_url,
-      name,
-      birth,
-      gender,
-      services,
-      created_at
-    }) 
-
-    fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err){
-      if(err) return res.send('Write file error')
-
-      return res.redirect('/instructors')
-
-    })
-    //return  res.send(req.body)
-  
-}
-// EDIT
 exports.edit = function(req, res){
 
   const { id } = req.params
@@ -82,12 +83,12 @@ exports.edit = function(req, res){
 
   const instructor = {
     ...foundInstructor,
-    birth: date(foundInstructor.birth) //2000-2-1
+    birth: date(foundInstructor.birth).iso //2000-2-1
   }
 
   return res.render('instructors/edit', { instructor })
 }
-// PUT
+
 exports.put = function(req, res){
 
   const { id } = req.body
@@ -116,7 +117,7 @@ exports.put = function(req, res){
     return res.redirect(`/instructors/${id}`)
   })
 }
-// DELETE
+
 exports.delete = function(req, res) {
 
   const { id } = req.body 
