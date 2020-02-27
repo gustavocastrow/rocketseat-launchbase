@@ -1,5 +1,14 @@
 {
-  "members": [],
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.google.com",
+      "name": "Ronaldo",
+      "birth": 952819200000,
+      "gender": "M",
+      "created_at": 1582766593041
+    }
+  ],
   "instructors": [
     {
       "id": 1,
