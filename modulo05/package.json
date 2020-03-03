@@ -5,13 +5,14 @@
   "main": "server.js",
   "scripts": {
     "start": "npm-run-all -p nodemon browsersync",
-    "nodemon": "nodemon server.js",
-    "browsersync": "browser-sync start --proxy http://localhost:4000 --files 'public,views'"
+    "nodemon": "nodemon  src/server.js",
+    "browsersync": "browser-sync start --proxy http://localhost:4000 --files 'public,src/appviews'"
   },
   "dependencies": {
     "express": "^4.17.1",
     "method-override": "^3.0.0",
-    "nunjucks": "^3.2.0"
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
