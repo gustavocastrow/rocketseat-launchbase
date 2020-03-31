@@ -1,4 +1,4 @@
-# Bootcamp Launchbase - Rocketset
+# Bootcamp Launchbase - Rocketseat
 
 ![Image description](https://i.imgur.com/NNKxgbw.jpg) 
 # 1. [Módulo 01] Introdução à programação (fase 02)
