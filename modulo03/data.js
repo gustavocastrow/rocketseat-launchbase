@@ -3,7 +3,8 @@ module.exports = [
     id: "SXSKvUB9wDA",
     title: "Pagamento com stripe e NextJS ",
     duration: "44:40min",
-    price: "FREE"
+    price: "FREE",
+    featured: true,
   },
 
   {
@@ -24,7 +25,8 @@ module.exports = [
     id: "BwwOu29K6mE",
     title: "Transição de imagens com CSS e JS Puro",
     duration: "44:40min",
-    price: "FREE"
+    price: "FREE",
+    featured: true,
   },
 
   {
@@ -38,7 +40,8 @@ module.exports = [
     id: "nYLd-i4KA1o",
     title: "Melhores momentos - Carreira e mercado",
     duration: "44:40min",
-    price: "FREE"
+    price: "FREE",
+    featured: true,
   },
 
 
