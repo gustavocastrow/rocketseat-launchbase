@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+{% extends "layout.njk" %}
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Rocketset</title>
-  </head>
+{% block head %}
 
-<body>
-  <header>
-    <div class="links">
-      <a href="index.html">Sobre</a>
-      <a href="videos.html">Videos</a>
-    </div>
-  </header>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+{% endblock %}
+
+<title>Portfolio - Rocketseat</title>
+
+{% block content %}
   <div id="wrapper">
     <h1>Videos</h1>
   </div>
@@ -131,6 +123,4 @@
 
   <script src="scripts.js"></script>
 
-</body>
-
-</html>
+{% endblock %}
