@@ -22,17 +22,29 @@ const alunosDaTurmaB = [
   },
   {
     aluno: "Dimas",
-    nota: 2.2
+    nota: 10
   },
   {
     nome: "Mara",
+    nota: 5
+  },
+  {
+    nome: "Novo Aluno",
     nota: 5
   }
 ]
 
 function calculaMedia(alunos) {
-  return (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
-  //return (alunosDaTurmaX[0].nota + alunosDaTurmaX[1].nota + alunosDaTurmaX[2].nota);
+  let soma = 0;
+  for (let i = 0; i < alunos.length; i++) {
+    soma = soma + alunos[i].nota;
+  }
+  console.log(soma);
+
+  const media = soma / alunos.length;
+  return media
+  //return (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
+  //return (alunosDaTurmaX[0].nota + alunosDaTurmaX[1].nota + alunosDaTurmaX[2].nota);j
 }
 
 const media1 = calculaMedia(alunosDaTurmaA);
@@ -42,7 +54,7 @@ function enviaMensagem(media, turma) {
   if (media > 5) {
     console.log(`A media da  ${turma} foi de ${media}. Parabens`)
   } else {
-    console.log(`A media da  ${turma} é menor que 5`)
+    console.log(`A media da  ${turma} foi de ${media} é menor que 5`)
   }
 }
 
