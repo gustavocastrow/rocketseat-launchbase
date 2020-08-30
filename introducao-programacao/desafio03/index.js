@@ -35,9 +35,9 @@ for (usuario of usuarios) {
   const saldo = calculaSaldo(usuario.receitas, usuario.despesas);
 
   if (saldo > 0) {
-    console.log(`${usuario.nome} possui saldo POSITIVO de ${saldo}`)
+    console.log(`${usuario.nome} possui saldo POSITIVO de ${saldo.toFixed(2)}`)
   } else {
-    console.log(`${usuario.nome} possui saldo NEGATIVO de ${saldo}`)
+    console.log(`${usuario.nome} possui saldo NEGATIVO de ${saldo.toFixed(2)}`)
   }
 }
 
