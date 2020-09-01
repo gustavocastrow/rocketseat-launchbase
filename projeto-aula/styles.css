@@ -126,6 +126,7 @@ header {
   position: fixed;
   top: 0;
   opacity: 0;
+  visibility: hidden;
 }
 
 .modal {
@@ -134,7 +135,6 @@ header {
   height: 90%;
   margin: 5vh auto;
   position: relative;
-  visibility: hidden;
 }
 
 .modal .close-modal {
