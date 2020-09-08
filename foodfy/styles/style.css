@@ -7,3 +7,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+.header {
+  background: tomato;
+  max-width: 940px;
+  margin: 0 auto;
+}
