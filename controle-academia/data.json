@@ -1,0 +1,20 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Ivete",
+      "birth": "1998-09-09",
+      "gender": "M",
+      "services": "Boxe, Crossfit",
+      "created_at": 1601587836861
+    },
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Ivete",
+      "birth": 800496000000,
+      "gender": "M",
+      "services": "Boxe, Crossfit",
+      "created_at": 1601588012048
+    }
+  ]
+}
