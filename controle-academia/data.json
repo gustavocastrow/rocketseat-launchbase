@@ -2,19 +2,21 @@
   "instructors": [
     {
       "avatar_url": "https://www.google.com",
-      "name": "Ivete",
-      "birth": "1998-09-09",
-      "gender": "M",
-      "services": "Boxe, Crossfit",
-      "created_at": 1601587836861
+      "birth": 816048000000,
+      "created_at": 1601669431370,
+      "id": 1,
+      "services": "Futebol, Musculação",
+      "name": "Gustavo ",
+      "gender": "M"
     },
     {
+      "id": 2,
       "avatar_url": "https://www.google.com",
-      "name": "Ivete",
-      "birth": 800496000000,
+      "name": "Pedro",
+      "birth": 968716800000,
       "gender": "M",
-      "services": "Boxe, Crossfit",
-      "created_at": 1601588012048
+      "services": "Crossfit",
+      "created_at": 1601669521841
     }
   ]
 }
