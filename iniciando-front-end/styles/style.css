@@ -1,0 +1,88 @@
+:root {
+  --color-green: #50FA7B;
+  --color-navy: #282A36;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: var(--color-navy);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* === MENU === */
+
+header {
+  padding: 32px;
+  border-bottom: 1px solid;
+  background: rgba(0, 0, 0, 0.274);
+}
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 16px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--color-green);
+  transition: color 600ms;
+}
+
+/* === PRINCIPAL === */
+
+#wrapper {
+  text-align: center;
+  padding: 32px;
+}
+
+#wrapper img {
+  border-radius: 50%;
+  border: 5px solid var(--color-green);
+  width: 250px;
+  margin-bottom: 32px;
+}
+
+#wrapper h1 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+#wrapper h2 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+#wrapper p {
+  max-width: 500px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+#wrapper p a {
+  text-decoration: none;
+  color: var(--color-green);
+}
+
+#wrapper p a:hover {
+  opacity: 0.5;
+  transition: 600ms;
+}
+
+/* == MIDIAS SOCIAIS == */
+
+#links-footer a {
+  border-bottom: 1px solid var(--color-green);
+}
