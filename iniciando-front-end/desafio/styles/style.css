@@ -8,6 +8,7 @@
 body {
   background: #282A36;
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 header {
@@ -15,6 +16,8 @@ header {
   padding: 30px;
   border-bottom: 1px solid #50FA7B;
 }
+
+/* === Header === */
 
 .links {
   text-align: center;
@@ -35,3 +38,56 @@ header {
   transition: 600ms;
   font-weight: bold;
 }
+
+/* === SOBRE === */
+
+.sobre {
+  text-align: center;
+}
+
+.sobre img {
+  border-radius: 50%;
+  width: 200px;
+  margin-top: 50px;
+  border: 3px solid #50FA7B;
+}
+
+.sobre h1 {
+  padding-top: 30px;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.sobre h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.sobre ul {
+  margin: 0 auto;
+  list-style: none;
+  max-width: 200px;
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.midias-sociais {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.midias-sociais a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.midias-sociais a:hover {
+  color: #50FA7B;
+  transition: 600ms;
+}
+
