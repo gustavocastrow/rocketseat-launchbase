@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+
+header {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  align-items: baseline;
+}
+
+.menu img {
+  padding-top: 36.1px;
+  margin-right: 122.4px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  font-family: Roboto-Regular;
+  margin-right: 30px;
+  padding-top: 38px;
+  text-align: center;
+}
+
+.wrapper {
+  background: #FBDFDB;
+  border-radius: 30px;
+  border-radius: 30px;
+  max-width: 940px;
+  max-height: 366px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.chef {
+  margin: 0 auto;
+}
+
+.chef img {
+  max-width: 216px;
+  max-height: 300px;
+  padding-top: 66px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content__title {
+  width: 305px;
+  height: 38px;
+  margin-left: 60px;
+  margin-top: 117px;
+}
+
+.content h1 {
+  font-family: Roboto-Bold;
+  font-size: 32px;
+  color: #111111;
+}
+
+.content__paragraph {
+  width: 316px;
+  height: 84px;
+  margin-left: 60px;
+}
+
+.content__paragraph p {
+  opacity: 0.7;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  line-height: 28px;
+}
+
+.recipes {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.recipes__title {
+  width: 174px;
+  height: 28px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.recipes__title h1 {
+  font-family: Roboto-Bold;
+  font-size: 24px;
+  line-height: 34px;
+  color: #111111;
+}
+
+.recipes__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.recipes__card {
+}
+
+.recipes__card-img img {
+  width: 300px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.recipes__card-title h3 {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.recipes__card-author p {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 30px;
+}
+
+footer {
+  height: 62px;
+  background: #EEEEEE;
+  margin-top: 50px;
+}
+
+footer p {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  padding-top: 23px;
+}
+
