@@ -1,0 +1,26 @@
+{% extends "layout.html" %} <!--Ir para pagina layout.html-->
+<!--Levando todo conteudo que esta dentro do "block content"-->
+
+{% block head %}
+<title>Sobre Gustavo Castro</title>
+{% endblock %}
+
+{% block content %}
+  <div id="wrapper">
+    <img src="https://avatars3.githubusercontent.com/u/28705325?s=460&u=40904ee2f1fa283b7a3ac42f25d61995425f64b0&v=4" alt="">
+    <h1>Gustavo Castro</h1>
+    <h2>Desenvolvedor Fullstack</h2>
+    <p>Graduado em Análise e Desenvolvimento de Sistemas (Etep), e atualmente cursando
+      a segunda graduação em Banco de Dados (Fatec), juntamente cursando os Bootcamps
+      Launchbase e GoStack da <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+      focados em Javascript, ReactJS, React Native e NodeJS.
+    </p>
+  </div>
+
+  <div id="links-footer" class="links">
+    <a href="https://github.com/gustavocastrow" target="_blank">Github</a>
+    <a href="https://twitter.com/gustavocastrow" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/in/gustavocastrow/" target="_blank">LinkedIn</a>
+  </div>
+
+  {% endblock %}
