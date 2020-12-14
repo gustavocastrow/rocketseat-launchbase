@@ -1,0 +1,122 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<title>Porfolio | Gustavo Castro</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+  <div id="wrapper">
+    <h1>Aulas</h1>
+  </div>
+
+  <section class="cards">
+    <!-- CARD 01 -->
+    <div class="card" id="roc-5euwalY">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/roc-5euwalY/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>José Valim, criador da linguagem Elixir | Podcast Faladev</p>
+      </div>
+      <div class="card__info">
+        <p>1:13:16</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+
+    <!-- CARD 02-->
+    <div class="card" id="cZvWDTqTGKg">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/cZvWDTqTGKg/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>Masonry GRID | Code/Drops</p>
+      </div>
+      <div class="card__info">
+        <p>14:12</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+
+    <!-- CARD 03 -->
+    <div class="card" id="rNCGwggC1RI">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/rNCGwggC1RI/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>Buscando em 1 milhão de dados em 0.8ms com Rust | Code/Drops</p>
+      </div>
+      <div class="card__info">
+        <p>42:56</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+
+    <!-- CARD 04 -->
+    <div class="card" id="204ewU7NRO0">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/204ewU7NRO0/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>Recriando homepage da Vercel | UI Clone </p>
+      </div>
+      <div class="card__info">
+        <p>29:09</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+
+     <!-- CARD 05 -->
+    <div class="card" id="Cz55Jmhfw84">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/Cz55Jmhfw84/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>Serverless com ReactJS e Next.js na Vercel | Code/Drops</p>
+      </div>
+      <div class="card__info">
+        <p>33:33</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+
+    <!-- CARD 06 -->
+    <div class="card" id="EXpct54Vc5A">
+      <div class="card__image-container">
+        <img src="https://img.youtube.com/vi/EXpct54Vc5A/maxresdefault.jpg" 
+        alt="Video 01">
+      </div>
+      <div class="card__content">
+        <p>Pesquisa e Elaboração de Conteúdo, Typescript 4.0 e VueJS 3.0, React Context X Redux | #PR 16</p>
+      </div>
+      <div class="card__info">
+        <p>22:58</p>
+        <p class="card__price">FREE</p>
+      </div>
+    </div>
+  </section>
+
+  <!--MODAL -->
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <a class="close-modal">
+        <i class="material-icons">close</i>
+
+      </a>
+      <div class="modal-content">
+        <iframe src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="/scripts.js"></script>
+  
+{% endblock %}
